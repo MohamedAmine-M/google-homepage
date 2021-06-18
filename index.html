@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>google-homepage</title>
+    <style>
+    header{
+        margin-bottom: 8%;
+    }
+    .header_el{
+        vertical-align: middle;
+        float:right;
+        display: flex;
+        align-items: center;
+    }
+    .multpad{
+        padding: 6px;
+        margin: 10px;
+    }
+    #input{
+        width:93%;
+        -webkit-appearance: none;
+        border: 0px;
+        padding:none ;
+    }
+    input:focus{
+        outline: none;
+    }
+    .srimg{
+        height: 20px;
+        width: 20px;
+    }
+    .Search{
+        padding: 6px;
+    }
+    .lowerbut{
+        padding: 13px;
+        margin: 10px;
+        background-color: #f8f9fa;
+        border: solid #f8f9fa 1px;
+        border-radius: 8px;
+    }
+    .lowerbut:hover{
+        -webkit-box-shadow: 0 0 4px #afb6ba;
+        box-shadow: 0 0 4px #afb6ba;
+    }
+    #searchbox:hover{
+        -webkit-box-shadow: 0 0 4px #afb6ba;
+        box-shadow: 0 0 4px #afb6ba;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 90%;
+    }
+
+
+    </style>
+</head>
+<body style="padding: 6px; font-family: Arial, Helvetica, sans-serif;">
+    <header>
+        <div class="header_el">
+            <span class="multpad"><a href="Gmail.com">Gmail</a></span>
+            <img src="Apps.png" alt="Apps Section Icon.">
+            <button class="multpad" style="width:96px;height:35px;background: #1a73e8; border: 1px solid transparent;border-radius: 3px;color: white; font-size: 14px;">Sign in</button>
+        </div>
+    </header>
+    <section style="text-align: center;">
+    <div style="margin-bottom:2% ;"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's Logo."></div>
+    <div id="searchbox" style="border:solid #b6bcbf 1px; border-radius:30px; padding:10px; padding-left:16px;display: flex;align-items: center; width:33%; margin: auto;">
+        <img class="Search srimg"src="search.png" alt="Search Icon.">
+        <input class="Search" id="input" type="text">
+        <img class="Search srimg" src="Voice.png" alt="Google Speech Icon.">
+    </div>
+    
+    <div style="margin:1.8%">
+        <button class="lowerbut">Google Search</button>
+        <button class="lowerbut">I'm Feeling Lucky</button>
+    </div>
+</section>
+</body>
+</html>
